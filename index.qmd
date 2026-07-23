@@ -1,5 +1,10 @@
+---
+title: "Preface"
+keywords: ['Eco-Innovations', 'AI', 'Sustainable Development Goals']
+---
+
 # Preface {.unnumbered}
 
-This is a Quarto book.
+Welcome to our project! This book explores eco-innovations and AI.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Use the globe dropdown menu in the upper navigation bar to switch language translations dynamically.
