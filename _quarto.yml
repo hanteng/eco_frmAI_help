@@ -3,6 +3,9 @@ project:
   resources:
     - CNAME               # Added to ensure your domain file is kept during rendering
 
+execute:
+  freeze: true  # 👈 This tells Quarto to only execute your code chunks when you explicitly change a file.
+
 book:
   title: "AI for Eco-Innovations"
   author: "Han-Teng Liao"
@@ -20,26 +23,28 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
+  #pdf:
+  #  documentclass: scrreprt
 
 babelquarto:
   languagecodes:
-  - name: ja
-    text: "日本語"
-  - name: zh-TW
-    text: "正體中文"
-  - name: en
-    text: "English"
+    - name: ja
+      text: "日本語"
+    - name: "zh-hant"       # Use this exact text handle
+      text: "繁體中文"
+    - name: "zh-hans"       # Use this exact text handle
+      text: "简体中文"
+    - name: en
+      text: "English"
   mainlanguage: 'en'
-  languages: ['ja', 'zh-TW']
+  languages: ['ja', 'zh-hant', 'zh-hans']
+
+  # Metadata Mapping Variables
   title-ja: "エコイノベーションのためのAI"
-  title-zh-TW: "人工智慧促進生態創新"
-  description-ja: ""
-  description-zh-TW: ""
-  abstract-ja: ""
-  abstract-zh-TW: ""
-  author-ja: ""
-  author-zh-TW: ""
+  title-zh-hant: "人工智慧促進生態創新"
+  title-zh-hans: "人工智能促进生态创新"
+  author-ja: "廖漢騰"
+  author-zh-hant: "廖漢騰"
+  author-zh-hans: "廖汉腾"
   lang: en
 

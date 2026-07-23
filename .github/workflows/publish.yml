@@ -1,22 +1,16 @@
-name: Deploy Quarto Book to GitHub Pages
+name: Quarto Publish and Deploy
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch: {}
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+    branches: [ main ] # Triggers the build automatically whenever you push to main
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write # <--- CRITICAL: Permission to verify the runner
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -33,7 +27,10 @@ jobs:
 
       # 3. Setup R environment
       - name: Setup R
+      - name: Set up R Environment
         uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true # ⚡️ CRITICAL SPEED FIX: Instantly downloads pre-compiled Ubuntu binaries instead of compiling from source
 
       # 4. Install R dependencies
       - name: Install R Dependencies
@@ -46,17 +43,11 @@ jobs:
       # 5. Render Multilingual Book using babelquarto
       - name: Render Multilingual Book
         env:
-          BABELQUARTO_CI_URL: "https://<username>.github.io/<repo-name>/" # 👈 Update with your site URL
+          BABELQUARTO_CI_URL: "https://eco.frmai.help" # 👈 Update with your site URL
         run: |
           Rscript -e 'babelquarto::render_book()'
 
-      # 6. Copy Root Files (CNAME / custom covers)
-      - name: Copy Critical Root Files to Output
-        run: |
-          cp CNAME _book/ 2>/dev/null || true
-          cp cover.png _book/ 2>/dev/null || true
-
-      # 7. Upload Pages Artifact
+      # 6. Upload Pages Artifact
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

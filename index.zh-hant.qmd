@@ -1,6 +1,7 @@
 ---
 title: "序言"
 keywords: ['生態創新', '人工智慧', '永續發展目標']
+lang: zh-hant
 ---
 
 # 序言 {.unnumbered}
