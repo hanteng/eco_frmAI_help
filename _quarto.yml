@@ -1,0 +1,43 @@
+project:
+  type: book
+
+book:
+  title: "eco_frmAI_help"
+  author: "Norah Jones"
+  date: "23/07/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+babelquarto:
+  languagecodes:
+  - name: ja
+    text: "Version in ja"
+  - name: zh-TW
+    text: "Version in zh-TW"
+  - name: en
+    text: "Version in en"
+  mainlanguage: 'en'
+  languages: ['ja', 'zh-TW']
+title-ja: title in ja
+title-zh-TW: title in zh-TW
+description-ja: description in ja
+description-zh-TW: description in zh-TW
+abstract-ja: abstract in ja
+abstract-zh-TW: abstract in zh-TW
+author-ja: author in ja
+author-zh-TW: author in zh-TW
+lang: en
+
