@@ -1,43 +1,45 @@
-  project:
-    type: book
+project:
+  type: book
+  resources:
+    - CNAME               # Added to ensure your domain file is kept during rendering
 
-  book:
-    title: "eco_frmAI_help"
-    author: "Norah Jones"
-    date: "23/07/2026"
-    chapters:
-      - index.qmd
-      - intro.qmd
-      - summary.qmd
-      - references.qmd
+book:
+  title: "AI for Eco-Innovations"
+  author: "Han-Teng Liao"
+  date: "23/07/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
 
-  bibliography: references.bib
+bibliography: references.bib
 
-  format:
-    html:
-      theme:
-        - cosmo
-        - brand
-    pdf:
-      documentclass: scrreprt
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
 
-  babelquarto:
-    languagecodes:
-    - name: ja
-      text: "Version in ja"
-    - name: zh-TW
-      text: "Version in zh-TW"
-    - name: en
-      text: "Version in en"
-    mainlanguage: 'en'
-    languages: ['ja', 'zh-TW']
-  title-ja: title in ja
-  title-zh-TW: title in zh-TW
-  description-ja: description in ja
-  description-zh-TW: description in zh-TW
-  abstract-ja: abstract in ja
-  abstract-zh-TW: abstract in zh-TW
-  author-ja: author in ja
-  author-zh-TW: author in zh-TW
+babelquarto:
+  languagecodes:
+  - name: ja
+    text: "日本語"
+  - name: zh-TW
+    text: "正體中文"
+  - name: en
+    text: "English"
+  mainlanguage: 'en'
+  languages: ['ja', 'zh-TW']
+  title-ja: "エコイノベーションのためのAI"
+  title-zh-TW: "人工智慧促進生態創新"
+  description-ja: ""
+  description-zh-TW: ""
+  abstract-ja: ""
+  abstract-zh-TW: ""
+  author-ja: ""
+  author-zh-TW: ""
   lang: en
 
