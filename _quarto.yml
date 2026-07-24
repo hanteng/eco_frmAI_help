@@ -6,6 +6,8 @@ project:
 book:
   title: "Orchestrating AI-SDG EcoInnovations"
   subtitle: "A Playbook for Mapping and Designing an Open and Collaborative Future"
+  cover-image: images/cover.png
+  cover-image-alt: "Book cover showing the Illustrations of Alice and the Dodo from Alice's Adventures in Wonderland, by John Tenniel (1865)"  
   author:
     - name: "Han-Teng Liao"
       orcid: "0000-0000-0000-0000"   # replace with actual ORCID
@@ -53,7 +55,6 @@ csl: https://www.zotero.org/styles/springer-basic-author-date
 
 crossref:
   chapters: true
-  part-title: "Part"
   appendix-title: "Appendix"
   appendix-delim: ":"
 
