@@ -26,8 +26,8 @@ book:
         - 05-service-design-meta-journeys.qmd
         - 06-ssbd-derisking-matrix.qmd
     - part: "Part III: Industrial & Policy Outputs (Standards & RegTech)"
-    #  chapters:
-    #    - 07-digital-product-passports.qmd
+      chapters:
+        - 07-digital-product-passports.qmd
     #    - 08-industrial-data-spaces.qmd
     #    - 09-regtech-defa-alignment.qmd
     - references.qmd

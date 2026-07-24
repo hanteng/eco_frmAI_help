@@ -1,0 +1,30 @@
+---
+subtitle: Designing Groundwork for Trustworth Data
+keywords: 
+  - sustainable consumption and production
+  - life cycle analysis
+  - Safe and Sustainable by Design
+---
+# Digital Product Passports (DPP) {#sec-digital-product-passports}
+
+::: {.chapterabstract}
+Draft abstract: this chapter opens Part III by demonstrating how a machine-readable Digital Product Passport schema populated by the de-risking matrix of Chapter 6 can help an industry sector in green digital transformation of products and services.
+:::
+
+::: {.keywords}
+Digital Product Passport &middot; lifecycle traceability &middot; SSbD compliance &middot; supply-chain verification
+:::
+
+## 7.1 DPP Data Architecture
+- Machine-readable attribute schema for supply-chain lifecycle tracking.
+
+## 7.2 Lifecycle Traceability and SSbD Compliance Linkage
+- Mapping @sec-ssbd-derisking-matrix outputs directly into DPP fields.
+
+## 7.3 Case Application: A Semiconductor Supply-Chain DPP
+- Worked example, carried through to the RegTech alignment in
+  @sec-regtech-defa-alignment.
+
+::: {.callout-tip title="Bridge to Chapter 8"}
+Chapter 8 addresses who is allowed to see and act on this passport data.
+:::
