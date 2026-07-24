@@ -1,0 +1,26 @@
+# Feasibility & SSbD De-risking Matrix {#sec-ssbd-derisking-matrix}
+
+::: {.chapterabstract}
+Draft abstract: this chapter closes Part II with the feasibility layer, extending the EU **Safe and Sustainable by Design (SSbD)** framework into a scoring matrix, illustrated with two case studies.
+:::
+
+::: {.keywords}
+SSbD &middot; chemical safety &middot; carbon footprint &middot; TRL risk &middot; de-risking
+:::
+
+## 6.1 The Safe and Sustainable by Design Paradigm
+- Extending EU Green Digital Transformation guidance to global value chains, beyond its original EU-internal scope.
+
+## 6.2 Case Study 1: Technologies
+- Patent mapping to identify non-toxic chemical alternatives (e.g., PFAS replacement and Isopropyl Alcohol (IPA) in semiconductor manufacturing).
+
+## 6.3 Case Study 2: Infrastructure
+- De-risking next-generation data-center cooling procurement using scientometric foresight.
+
+## 6.4 The De-risking Matrix
+- Three-axis scoring: chemical toxicity x carbon footprint x TRL risk.
+- Output format designed to feed directly into the DPP schema (@sec-digital-product-passports).
+
+::: {.callout-tip title="Bridge to Part III"}
+Part III operationalizes everything above into standards, data-space governance, and trade-policy alignment.
+:::

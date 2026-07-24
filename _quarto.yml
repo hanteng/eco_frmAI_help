@@ -26,8 +26,8 @@ book:
     - part: "Part II: The Translation Bridge (Extended ITU Toolkits Design Canvas)"
       chapters:
         - 04-itu-ecoinnovation-canvas.qmd
-    #    - 05-service-design-meta-journeys.qmd
-    #    - 06-ssbd-derisking-matrix.qmd
+        - 05-service-design-meta-journeys.qmd
+        - 06-ssbd-derisking-matrix.qmd
     #- part: "Part III: Industrial & Policy Outputs (Standards & RegTech)"
     #  chapters:
     #    - 07-digital-product-passports.qmd
