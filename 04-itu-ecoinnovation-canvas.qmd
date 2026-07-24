@@ -1,24 +1,31 @@
+---
+subtitle: "A Nine-Block Framework Bridging Data and Design"
+abstract: |
+  This chapter introduces the book's central methodological contribution -- extending the ITU Digital Innovation Toolkit into the nine-block AI-SDG EcoInnovation Canvas (full spec in @sec-app-canvas).
+keywords:
+  - ITU Digital Innovation Toolkit
+  - ecosystem diagnosis
+  - canvas methodology
+  - technology roadmapping
+---
+
 # The ITU-Inspired EcoInnovation Canvas {#sec-itu-ecoinnovation-canvas}
 
-::: {.chapterabstract}
-Draft abstract: this chapter introduces the book's central methodological contribution -- extending the ITU Digital Innovation Toolkit into the nine-block **AI-SDG EcoInnovation Canvas** (full spec in @sec-app-canvas).
-:::
+Part I established what the data shows; Part II asks what to design in response. This chapter extends the ITU Digital Innovation Toolkit's *Rapid Ecosystem Diagnosis* and *Flagship Project Co-Creation* phases into a single nine-block canvas, so that each block of the canvas maps directly onto one chapter of this book.
 
-::: {.keywords}
-ITU Digital Innovation Toolkit &middot; ecosystem diagnosis &middot; canvas methodology &middot; technology roadmapping
-:::
+The canvas is deliberately a working artefact, not a finished model: it is meant to be filled in, argued with, and revised as new evidence from Part I arrives.
 
-## 4.1 From Retrospective Science Mapping to Prospective Service Design
+## From Retrospective Science Mapping to Prospective Service Design
 - Why traditional bibliometrics fail without a design layer.
 
-## 4.2 Extending the ITU Digital Innovation Toolkit
+## Extending the ITU Digital Innovation Toolkit
 - Mapping onto *Rapid Ecosystem Diagnosis* and *Flagship Project Co-Creation* phases specifically.
 
-## 4.3 The Nine-Block AI-SDG EcoInnovation Canvas
+## The Nine-Block AI-SDG EcoInnovation Canvas
 - Walk-through of the canvas, block by block, with forward references to where each block is operationalized (Blocks 1--3 in Part I, Blocks 4--6 in this Part, Blocks 7--9 in Part III).
 - Full machine-readable specification: @sec-app-canvas.
 
-## 4.4 Method and Data Matrix
+## Method and Data Matrix
 - The "Method" row (AI-enabled scientometric roadmapping) and "Data" row (triangulated multi-database horizon data) as a single institutional workflow, for expert and institutional application.
 
 ::: {.callout-tip title="Bridge to Chapter 5"}

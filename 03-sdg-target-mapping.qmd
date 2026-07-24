@@ -1,12 +1,17 @@
+---
+subtitle: "From Technical Capability to Verifiable Development Impact"
+abstract: |
+  This chapter closes Part I by mapping technical capability clusters from Chapter 2 onto specific SDG indicators, and by returning to the institutional comparison opened in @sec-institutional-baseline.
+keywords:
+  - SDG alignment taxonomy
+  - indicator mapping
+  - knowledge-policy nexus
+  - data provenance
+---
+
 # SDG Target Mapping {#sec-sdg-target-mapping}
 
-::: {.chapterabstract}
-Draft abstract: this chapter closes Part I by mapping technical capability clusters from Chapter 2 onto specific SDG indicators, and by returning to the institutional comparison opened in @sec-institutional-baseline.
-:::
-
-::: {.keywords}
-SDG alignment taxonomy &middot; indicator mapping &middot; knowledge-policy nexus &middot; data provenance
-:::
+Mapping a technology cluster to an SDG headline number is easy; mapping it to a specific, verifiable SDG *indicator* is where most "AI for good" claims break down. This chapter closes Part I by holding the Chapter 2 catalogue's outputs to that stricter standard, and by returning to the UNU/OECD/ADB knowledge-landscape comparison opened in @sec-institutional-baseline.
 
 ## Alignment Taxonomy
 - Mapping technical capabilities to specific SDG indicators (e.g., Target 9.4, 12.4) rather than headline SDG numbers alone.
@@ -15,10 +20,10 @@ SDG alignment taxonomy &middot; indicator mapping &middot; knowledge-policy nexu
 - Where "AI for good" claims and material/energy costs diverge.
 
 ## Comparative Knowledge Mapping: UNU, OECD, ADB
-- Extends @sec-institutional-baseline into a knowledge-to-policy comparison across the three institutions. 
+- Extends @sec-institutional-baseline into a knowledge-to-policy comparison across the three institutions.
 - Framed as fostering open, collaborative innovation across multilateral agencies, not a ranking exercise.
 
-## 3.4 Data Governance and Provenance for SDG Claims
+## Data Governance and Provenance for SDG Claims
 - Minimum provenance metadata required before a claim can be cited in downstream chapters (DPP in @sec-digital-product-passports; RegTech in @sec-regtech-defa-alignment).
 
 ::: {.callout-tip title="Bridge to Part II"}

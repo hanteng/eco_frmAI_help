@@ -11,7 +11,16 @@ book:
       orcid: "0000-0000-0000-0000"   # replace with actual ORCID
       affiliations:
         - name: "Independent Researcher"
-  date: "23/07/2026"
+  date: "2026-07-23"   # ISO format so it parses/localizes correctly across formats
+  site-url: "https://eco.frmai.help"   # matches CNAME; update if the domain changes
+  cover-image: cover.png   # file now present at project root
+  sidebar:
+    style: docked
+    collapse-level: 1
+  search: true
+  page-navigation: true
+  reader-mode: true
+
   # ---- Structure: 3 parts x 3 chapters, mirroring the 9-block canvas 1:1 ----
   chapters:
     - index.qmd
@@ -33,8 +42,8 @@ book:
     - references.qmd
 
   # Appendices are a distinct top-level key, not a "fake part" inside chapters.
-  # This is the current Quarto convention and renders with correct
-  # A/B numbering and its own TOC/nav treatment in both HTML and PDF/LaTeX.
+  # RE-ENABLED: these were commented out, which orphaned every @sec-app-canvas
+  # and @sec-app-mermaid cross-reference in Chapters 1, 2, 4, 5, 9, and the Preface.
   appendices:
     - appendix-a-canvas-spec.qmd
     - appendix-b-mermaid-workflows.qmd
@@ -44,6 +53,7 @@ csl: https://www.zotero.org/styles/springer-basic-author-date
 
 crossref:
   chapters: true
+  part-title: "Part"
   appendix-title: "Appendix"
   appendix-delim: ":"
 
@@ -51,9 +61,8 @@ number-depth: 2        # number sections to x.y; leave x.y.z unnumbered
 number-sections: true
 
 execute:
-  freeze: auto  # cache/reuse output; only re-run changed chapters
+  freeze: auto  # re-run only chapters whose source changed; `true` never re-runs at all
   echo: false
-
 
 format:
   html:
@@ -67,6 +76,26 @@ format:
     tbl-cap-location: top
     citations-hover: true
     footnotes-hover: true
+
+  # RESTORED: this whole block, plus templates/springer-header.tex, was missing from
+  # the upload, meaning no PDF target existed at all. Confirm whether that was
+  # intentional (website-first) -- restoring it costs nothing since it's additive
+  # to the HTML build, but delete this block again if PDF isn't wanted right now.
+  pdf:
+    documentclass: scrbook     # KOMA-Script stand-in for drafting/review;
+                                # swap to Springer's own class (e.g. svmono)
+                                # only once a contract/template is issued
+    papersize: a4
+    classoption: [10pt, openright, twoside]
+    toc: true
+    toc-depth: 3
+    colorlinks: true
+    linkcolor: blue
+    citecolor: darkgreen
+    urlcolor: blue
+    include-in-header: templates/springer-header.tex
+    pdf-engine: xelatex
+    keep-tex: true
 
 babelquarto:
   languagecodes:
@@ -90,3 +119,9 @@ babelquarto:
   author-zh-hans: "廖汉腾"
   lang: en
 
+# NOTE: babelquarto config keys above are correct for the {babelquarto} R package,
+# but this is currently inert: it needs (1) the babelquarto R package installed and
+# rendered via its own render_book()/render_website(), not plain `quarto render`,
+# and (2) a translated file per chapter per language, e.g.
+# 01-scientometric-horizon.ja.qmd -- none of which exist yet. The "Welcome" text's
+# promised globe-icon language switcher will not appear until both are in place.

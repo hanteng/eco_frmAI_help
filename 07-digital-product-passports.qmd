@@ -18,13 +18,13 @@ The Digital Product Passport (DPP) refers to a digital record storing data on a 
 
 Mandated by the EU's **Ecodesign for Sustainable Products Regulation** (ESPR), DPP can be accessed via a QR code, enabling innovative products and services that contribute to the regenerative patterns of sustainable consumption and production. The EU's DPP Registry and testing environment went live, with mandatory passports required for certain large batteries starting 2027.
 
-## 7.1 DPP Data Architecture
+## DPP Data Architecture
 - Machine-readable attribute schema for supply-chain lifecycle tracking.
 
-## 7.2 Lifecycle Traceability and SSbD Compliance Linkage
+## Lifecycle Traceability and SSbD Compliance Linkage
 - Mapping @sec-ssbd-derisking-matrix outputs directly into DPP fields.
 
-## 7.3 Case Application: A Semiconductor Supply-Chain DPP
+## Case Application: A Semiconductor Supply-Chain DPP
 - Worked example, carried through to the RegTech alignment in
   @sec-regtech-defa-alignment.
 

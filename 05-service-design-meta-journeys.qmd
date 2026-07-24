@@ -1,20 +1,25 @@
+---
+subtitle: "Mapping Stakeholder Interactions Across the Innovation Ecosystem"
+abstract: |
+  This chapter converts the canvas from Chapter 4 into stakeholder alignment journeys and system sequence diagrams (rendered code in @sec-app-mermaid).
+keywords:
+  - service design
+  - meta-journey mapping
+  - stakeholder interaction
+  - API/data exchange
+---
+
 # Service Design & Ecosystem Meta Journeys {#sec-service-design-meta-journeys}
 
-::: {.chapterabstract}
-Draft abstract: this chapter converts the canvas from Chapter 4 into stakeholder alignment journeys and system sequence diagrams (rendered code in @sec-app-mermaid).
-:::
+A canvas block only becomes useful once it is walked through as a journey: who hands data to whom, where a human has to sign off, and where the exchange can be machine-to-machine. This chapter turns Chapter 4's canvas into exactly that -- a set of stakeholder alignment journeys and system sequence diagrams that Appendix B renders as executable Mermaid code.
 
-::: {.keywords}
-service design &middot; meta-journey mapping &middot; stakeholder interaction &middot; API/data exchange
-:::
-
-## 5.1 Stakeholder Interaction Vectors
+## Stakeholder Interaction Vectors
 - Government, industry, and academia touchpoints; who owns which handoff.
 
-## 5.2 API and Data Exchange Nodes
+## API and Data Exchange Nodes
 - Where the meta-journey requires machine-to-machine exchange versus human sign-off.
 
-## 5.3 Sequence Modeling of Institutional Workflows
+## Sequence Modeling of Institutional Workflows
 - Reading and adapting the Mermaid sequence diagram in @sec-app-mermaid (Section B.2) for a new institutional context.
 
 ::: {.callout-tip title="Bridge to Chapter 6"}

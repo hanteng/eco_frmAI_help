@@ -1,18 +1,25 @@
+---
+subtitle: "Cataloguing Tools for Technology Readiness and Roadmapping"
+abstract: |
+  This chapter's core contribution is an AI-Powered Bibliometrics Catalogue -- a structured, comparative review of existing AI-enhanced bibliometric and tech-mining tools, organized around two functional axes the rest of the book depends on: support for Technology Readiness Level (TRL) assessment, and support for technology roadmapping.
+keywords:
+  - AI-powered bibliometrics catalogue
+  - tool typology
+  - TRL support
+  - technology roadmapping
+  - semantic clustering
+---
+
 # AI Analytics & NLP Extraction {#sec-ai-nlp-extraction}
 
-::: {.chapterabstract}
-Draft abstract: this chapter's core contribution is an AI-Powered Bibliometrics Catalogue -- a structured, comparative review of existing AI-enhanced bibliometric and tech-mining tools, organized around two functional axes the rest of the book depends on: support for Technology
-Readiness Level (TRL) assessment, and support for technology roadmapping.
-:::
+Bibliometric software has increasingly added AI-assisted modules for extraction, clustering, and summarization. Rather than treat any single package as a fixed pipeline, this chapter catalogues the field: existing tools are compared against two functional axes -- whether they surface Technology Readiness Level (TRL) signals, and whether they support technology roadmapping -- so the comparison stays useful as individual tools change.
 
-::: {.keywords}
-AI-powered bibliometrics catalogue &middot; tool typology &middot; TRL support &middot; technology roadmapping &middot; semantic clustering
-:::
+A tool only earns an "AI-powered" label in the Catalogue if that claim is substantiated by its own documentation, not inferred from marketing copy.
 
 ## An AI-Powered Bibliometrics Catalogue: Scope and Method
 - Definition: a catalogue of *existing* AI-enhanced bibliometric and tech-mining tools -- not a single proprietary pipeline -- assembled and scored against this book's two functional axes below.
 - **Axis 1, TRL-support:** does the tool surface maturity signals (patent-to-publication ratios, claim-language maturity, funding-stage mentions) usable in the TRL rubric from @sec-scientometric-horizon?
-- **Axis 2, roadmapping-support:** does the tool detect technology trajectories, weak signals, and thematic evolution over time? 
+- **Axis 2, roadmapping-support:** does the tool detect technology trajectories, weak signals, and thematic evolution over time?
 - Inclusion criteria: documented methodology, reproducibility, active maintenance. A tool is only described as "AI-powered" in the Catalogue if that is substantiated by its own documentation -- not inferred.
 
 ::: {.callout-important title="Populate before publication"}
@@ -33,8 +40,7 @@ The table below is a scaffold. Each row needs a verified, current citation befor
 
 ## From Retrospective Mapping to Prospective Foresight
 - Why bibliometrics alone under-determines "what to build next."
-- Sets up the design layer introduced in
-  @sec-itu-ecoinnovation-canvas.
+- Sets up the design layer introduced in @sec-itu-ecoinnovation-canvas.
 
 ::: {.callout-tip title="Bridge to Chapter 3"}
 Chapter 3 takes these trajectories and formally aligns them to SDG targets and indicators.

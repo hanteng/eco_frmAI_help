@@ -1,10 +1,20 @@
+---
+subtitle: "Establishing the Empirical Baseline for AI-SDG Analysis"
+abstract: |
+  This chapter sets the empirical baseline for the book by summarizing the Technology Readiness Level (TRL) scaffold used throughout Parts I--III and the multi-database corpus (Scopus, Web of Science, Lens, EPO/USPTO patents) used for scientometric and patent horizon scanning.
+keywords:
+  - scientometrics
+  - bibliometrics
+  - patent landscaping
+  - TRL
+  - multi-database triangulation
+---
+
 # Scientometric & Patent Horizon {#sec-scientometric-horizon}
 
-::: {.chapterabstract}
-Draft abstract: this chapter sets the empirical baseline for the book by summarizing the Technology Readiness Level (TRL) scaffold used throughout Parts I--III and the multi-database corpus (Scopus, Web of Science, Lens, EPO/USPTO patents) for scientometric and patent horizon scanning.
-:::
+Scientometric and patent horizon scanning triangulates scholarly publications, patent filings, and institutional knowledge outputs into a single, de-duplicated corpus. That corpus is the empirical baseline every later chapter builds on: Part I turns it into technology trajectories, Part II translates those trajectories into design canvases, and Part III turns the design outputs into standards and compliance artefacts.
 
-**Keywords:** scientometrics, bibliometrics, patent landscaping, TRL, multi-database triangulation.
+No single database offers full coverage on its own, so this chapter treats multi-database triangulation, patent-based technology mining, and a shared Technology Readiness Level (TRL) rubric as the three prerequisites for everything that follows.
 
 ## Multi-Database Ingestion
 - Comparative coverage of Scopus, Web of Science, and Lens for SDG tracking; strengths/blind spots of each source.
@@ -24,5 +34,5 @@ Draft abstract: this chapter sets the empirical baseline for the book by summari
 - Sets up the knowledge-to-policy nexus revisited in @sec-sdg-target-mapping.
 
 ::: {.callout-tip title="Bridge to Chapter 2"}
-Chapter 2 turns this raw, triangulated corpus into technology trajectories using AI-assisted content analysis, natural language processing (NLP), and prompt priming, in an AI-Powered Bibliometrics Catalogue. 
+Chapter 2 turns this raw, triangulated corpus into technology trajectories using AI-assisted content analysis, natural language processing (NLP), and prompt priming, in an AI-Powered Bibliometrics Catalogue.
 :::

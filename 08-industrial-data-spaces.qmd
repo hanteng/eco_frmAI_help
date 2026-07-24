@@ -1,38 +1,30 @@
 ---
-subtitle: Sharing Trustworthy Data for Coordinated Actions
-keywords: 
+subtitle: "Sharing Trustworthy Data for Coordinated Actions"
+abstract: |
+  This chapter specifies the federated data-sovereignty layer that governs access to the DPP data defined in Chapter 7: usage-control rules enforced by IDS-style trust-framework components (connectors, identity providers, clearing house), with distributed ledger technology treated as an optional implementation choice rather than a required or excluded one.
+keywords:
+  - Industrial Data Space
   - data sovereignty
-  - interoperability
   - federated trust
-  - sustainable consumption and production
-  - Safe and Sustainable by Design
+  - usage control
+  - interoperability
   - tech sovereignty
 ---
+
 # Sovereign Industrial Data Spaces (IDS) {#sec-industrial-data-spaces}
 
-::: {.chapterabstract}
-Draft abstract: this chapter specifies the federated, non-blockchain
-data-sovereignty layer that governs access to the DPP data defined in
-Chapter 7.
-:::
+A Digital Product Passport is only as trustworthy as the rules governing who can read and act on it. This chapter specifies that governance layer following the International Data Spaces (IDS) model: usage-control rules enforced by a trust framework of connectors, identity providers, and a clearing house. IDSA itself is architecture-agnostic on the underlying ledger technology -- its own IDS-RAM 3.0 explicitly lists blockchain as a technology to be leveraged within the architecture, and IDSA-adjacent work has explored distributed ledger technology (DLT) for traceability, provenance, and decentralized governance. Nothing about IDS requires or excludes a blockchain layer; it is a choice made per-deployment.
 
-::: {.keywords}
-Industrial Data Space &middot; data sovereignty &middot; federated trust &middot; usage control
-:::
+## Data Sovereignty Principles and Federated Trust Frameworks
+- Core mechanism: usage-control rules enforced by IDS connectors and a trust anchor (identity provider, clearing house) -- this is what does the sovereignty work, independent of ledger choice.
+- Distributed ledger technology (DLT) as an optional layer: useful where immutable traceability or decentralized governance is the priority (e.g. multi-party provenance logging), at the cost of throughput and of being able to revoke or amend usage-control rules after the fact. See @sec-ssbd-derisking-matrix's TRL-risk axis for how that trade-off gets scored when a deployment does choose DLT.
 
-## 8.1 Data Sovereignty Principles and Federated Trust Frameworks
-- Explicitly non-blockchain: usage-control rules over a trust anchor
-  rather than a distributed ledger.
-- Extension via blockchain possible: how a distributed ledger helps.
+## Usage Control Rules and Cross-Border Data Governance
+- Contractual and technical enforcement of "who may use what, how, and for how long."
 
-## 8.2 Usage Control Rules and Cross-Border Data Governance
-- Contractual and technical enforcement of "who may use what, how, and
-  for how long."
-
-## 8.3 Interoperability with DPP Outputs
+## Interoperability with DPP Outputs
 - Closing the loop back to @sec-digital-product-passports.
 
 ::: {.callout-tip title="Bridge to Chapter 9"}
-Chapter 9 closes the book by aligning this data layer with regional
-trade and regulatory frameworks.
+Chapter 9 closes the book by aligning this data layer with regional trade and regulatory frameworks.
 :::

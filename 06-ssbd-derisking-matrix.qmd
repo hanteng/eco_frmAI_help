@@ -1,23 +1,30 @@
+---
+subtitle: "Scoring Chemical, Carbon, and Maturity Risk Before Deployment"
+abstract: |
+  This chapter closes Part II with the feasibility layer, extending the EU Safe and Sustainable by Design (SSbD) framework into a scoring matrix, illustrated with two case studies.
+keywords:
+  - SSbD
+  - chemical safety
+  - carbon footprint
+  - TRL risk
+  - de-risking
+---
+
 # Feasibility & SSbD De-risking Matrix {#sec-ssbd-derisking-matrix}
 
-::: {.chapterabstract}
-Draft abstract: this chapter closes Part II with the feasibility layer, extending the EU **Safe and Sustainable by Design (SSbD)** framework into a scoring matrix, illustrated with two case studies.
-:::
+A stakeholder journey that looks clean on paper can still fail on feasibility grounds -- a chemical substitute that is not yet safe at scale, or an infrastructure choice with a hidden carbon cost. This chapter extends the EU's Safe and Sustainable by Design (SSbD) framework, originally scoped to EU internal value chains, into a three-axis de-risking matrix illustrated with two worked cases.
 
-::: {.keywords}
-SSbD &middot; chemical safety &middot; carbon footprint &middot; TRL risk &middot; de-risking
-:::
-
-## 6.1 The Safe and Sustainable by Design Paradigm
+## The Safe and Sustainable by Design Paradigm
 - Extending EU Green Digital Transformation guidance to global value chains, beyond its original EU-internal scope.
 
-## 6.2 Case Study 1: Technologies
-- Patent mapping to identify non-toxic chemical alternatives (e.g., PFAS replacement and Isopropyl Alcohol (IPA) in semiconductor manufacturing).
+## Case Study 1: Technologies
+- Patent mapping to identify non-toxic chemical alternatives (e.g., PFAS replacement in semiconductor manufacturing).
+- Note: solvents such as Isopropyl Alcohol (IPA) raise a distinct set of concerns (flammability, VOC emissions) from persistent PFAS compounds; treat as a separate sub-case rather than a like-for-like PFAS alternative.
 
-## 6.3 Case Study 2: Infrastructure
+## Case Study 2: Infrastructure
 - De-risking next-generation data-center cooling procurement using scientometric foresight.
 
-## 6.4 The De-risking Matrix
+## The De-risking Matrix
 - Three-axis scoring: chemical toxicity x carbon footprint x TRL risk.
 - Output format designed to feed directly into the DPP schema (@sec-digital-product-passports).
 
