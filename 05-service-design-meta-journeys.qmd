@@ -1,0 +1,22 @@
+# Service Design & Ecosystem Meta Journeys {#sec-service-design-meta-journeys}
+
+::: {.chapterabstract}
+Draft abstract: this chapter converts the canvas from Chapter 4 into stakeholder alignment journeys and system sequence diagrams (rendered code in @sec-app-mermaid).
+:::
+
+::: {.keywords}
+service design &middot; meta-journey mapping &middot; stakeholder interaction &middot; API/data exchange
+:::
+
+## 5.1 Stakeholder Interaction Vectors
+- Government, industry, and academia touchpoints; who owns which handoff.
+
+## 5.2 API and Data Exchange Nodes
+- Where the meta-journey requires machine-to-machine exchange versus human sign-off.
+
+## 5.3 Sequence Modeling of Institutional Workflows
+- Reading and adapting the Mermaid sequence diagram in @sec-app-mermaid (Section B.2) for a new institutional context.
+
+::: {.callout-tip title="Bridge to Chapter 6"}
+Chapter 6 stress-tests these journeys against real de-risking cases using the Safe and Sustainable by Design (SSbD) matrix.
+:::
