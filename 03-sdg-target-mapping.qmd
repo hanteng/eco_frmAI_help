@@ -1,0 +1,35 @@
+# SDG Target Mapping {#sec-sdg-target-mapping}
+
+::: {.chapterabstract}
+Draft abstract: this chapter closes Part I by mapping technical
+capability clusters from Chapter 2 onto specific SDG indicators, and by
+returning to the institutional comparison opened in
+@sec-institutional-baseline.
+:::
+
+::: {.keywords}
+SDG alignment taxonomy &middot; indicator mapping &middot; knowledge-policy nexus &middot; data provenance
+:::
+
+## 3.1 Alignment Taxonomy
+- Mapping technical capabilities to specific SDG indicators
+  (e.g., Target 9.4, 12.4) rather than headline SDG numbers alone.
+
+## 3.2 Identifying Negative Externalities and Trade-offs
+- Where "AI for good" claims and material/energy costs diverge.
+
+## 3.3 Comparative Knowledge Mapping: UNU, OECD, ADB
+- Extends @sec-institutional-baseline into a knowledge-to-policy
+  comparison across the three institutions.
+- Framed as fostering open, collaborative innovation across
+  multilateral agencies, not a ranking exercise.
+
+## 3.4 Data Governance and Provenance for SDG Claims
+- Minimum provenance metadata required before a claim can be cited in
+  downstream chapters (DPP in @sec-digital-product-passports; RegTech in
+  @sec-regtech-defa-alignment).
+
+::: {.callout-tip title="Bridge to Part II"}
+Part II turns this evidence base into the design layer: the extended ITU
+canvases.
+:::

@@ -22,6 +22,7 @@ book:
       chapters:
         - 01-scientometric-horizon.qmd
         - 02-ai-nlp-extraction.qmd
+        - 03-sdg-target-mapping.qmd
     - references.qmd
 
 bibliography: references.bib
