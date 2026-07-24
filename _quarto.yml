@@ -18,10 +18,10 @@ book:
   # ---- Structure: 3 parts x 3 chapters, mirroring the 9-block canvas 1:1 ----
   chapters:
     - index.qmd
-    - intro.qmd
     - part: "Part I: Data Engine (Scientometrics & Patent Mapping)"
       chapters:
         - 01-scientometric-horizon.qmd
+        - 02-ai-nlp-extraction.qmd
     - references.qmd
 
 bibliography: references.bib

@@ -1,10 +1,62 @@
 ---
-title: "Preface"
 keywords: ['Eco-Innovations', 'AI', 'Sustainable Development Goals']
 ---
 
-# Preface {.unnumbered}
+# Welcome {.unnumbered}
 
 Welcome to our project! This book explores eco-innovations and AI.
 
 Use the globe dropdown menu in the upper navigation bar to switch language translations dynamically.
+
+# Preface {.unnumbered}
+
+This playbook operationalizes the **AI-SDG EcoInnovations** framework,
+bridging **retrospective science mapping** with **prospective service
+design**.
+
+> **Series context.** Prepared for the **UNU Springer Book Series on
+> Artificial Intelligence and Sustainable Development (AISD)**.
+
+## Organization of the Monograph
+
+The volume is structured into three parts of three chapters each, so that
+every chapter maps one-to-one onto a block of the **AI-SDG EcoInnovation
+Canvas** (@sec-app-canvas). References follow the main text; two
+machine-readable appendices close the book.
+
+- **Part I -- Data Engine (Scientometrics & Patent Mapping).**
+  Establishes the empirical baseline: multi-database bibliometrics
+  (Scopus, Web of Science, Lens), an AI-Powered Bibliometrics Catalogue,
+  and mapping of research horizons onto UN SDG targets.
+- **Part II -- The Translation Bridge (Extended ITU Toolkits).**
+  Extends the **ITU Digital Innovation Toolkits** into action-oriented
+  design canvases, service meta-journeys, and EU **Safe and Sustainable
+  by Design (SSbD)** de-risking matrices.
+- **Part III -- Industrial & Policy Outputs (Standards & RegTech).**
+  Connects methodology to implementation: **Digital Product Passports
+  (DPP)**, sovereign **Industrial Data Spaces (IDS)**, and **RegTech**
+  compliance under the **ASEAN Digital Economy Framework Agreement
+  (DEFA)**.
+- **Appendices.** Machine-readable canvas specifications and Mermaid.js
+  system diagrams, written so they can be fed directly into an LLM or an
+  enterprise modeling tool.
+
+::: {.callout-note title="A structural note on institutional comparison"}
+An earlier outline carried a stand-alone chapter comparing the knowledge
+landscapes of UNU, OECD, and the ADB. Keeping the book on a clean 3x3
+(part x chapter) grid that mirrors the nine-block canvas was judged more
+useful to a reader than a tenth, thematically orphaned chapter. That
+material is kept, but distributed: it grounds the multi-database
+baseline in @sec-scientometric-horizon, and returns as the
+knowledge-to-policy comparison in @sec-sdg-target-mapping.
+:::
+
+## How to Read This Book
+
+- **Policymakers and standards editors** can start with Part III and use
+  the cross-references back to Parts I--II as needed.
+- **Researchers and data scientists** will find the reusable
+  methodology in Part I--II, including the AI-Powered Bibliometrics
+  Catalogue approach.
+- **Modern LLM agents / RA support** can be pointed directly at Appendix
+  A's system prompt to reproduce the canvas analysis on a new domain.

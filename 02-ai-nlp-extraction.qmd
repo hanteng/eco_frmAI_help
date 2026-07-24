@@ -1,0 +1,59 @@
+# AI Analytics & NLP Extraction {#sec-ai-nlp-extraction}
+
+::: {.chapterabstract}
+Draft abstract: this chapter's core contribution is an AI-Powered
+Bibliometrics Catalogue -- a structured, comparative review of existing
+AI-enhanced bibliometric and tech-mining tools, organized around two
+functional axes the rest of the book depends on: support for Technology
+Readiness Level (TRL) assessment, and support for technology
+roadmapping.
+:::
+
+::: {.keywords}
+AI-powered bibliometrics catalogue &middot; tool typology &middot; TRL support &middot; technology roadmapping &middot; semantic clustering
+:::
+
+## 2.1 An AI-Powered Bibliometrics Catalogue: Scope and Method
+- Definition: a catalogue of *existing* AI-enhanced bibliometric and
+  tech-mining tools -- not a single proprietary pipeline -- assembled
+  and scored against this book's two functional axes below.
+- **Axis 1, TRL-support:** does the tool surface maturity signals
+  (patent-to-publication ratios, claim-language maturity, funding-stage
+  mentions) usable in the TRL rubric from @sec-scientometric-horizon?
+- **Axis 2, roadmapping-support:** does the tool detect technology
+  trajectories, weak signals, and thematic evolution over time?
+- Inclusion criteria: documented methodology, reproducibility, active
+  maintenance. A tool is only described as "AI-powered" in the Catalogue
+  if that is substantiated by its own documentation -- not inferred.
+
+::: {.callout-important title="Populate before publication"}
+The table below is a scaffold. Each row needs a verified, current
+citation before this chapter goes to review -- run a fresh literature/
+tool search rather than relying on memory, since this landscape moves
+quickly (e.g. established packages regularly add new AI-assisted
+modules).
+:::
+
+| Tool | Data sources | TRL-support signal | Roadmapping signal | Citation |
+|---|---|---|---|---|
+| *TODO* | | | | |
+| *TODO* | | | | |
+| *TODO* | | | | |
+
+## 2.2 Automated Topic Modeling & Semantic Clustering
+- Method choice across catalogued tools (e.g., embedding-based
+  clustering vs. classic LDA) and why it matters for reproducibility.
+
+## 2.3 Citation Networks, Co-Patenting, and Weak-Signal Detection
+- How catalogued tools distinguish a genuine weak signal from noise in
+  a sparse corpus.
+
+## 2.4 From Retrospective Mapping to Prospective Foresight
+- Why bibliometrics alone under-determines "what to build next."
+- Sets up the design layer introduced in
+  @sec-itu-ecoinnovation-canvas.
+
+::: {.callout-tip title="Bridge to Chapter 3"}
+Chapter 3 takes these trajectories and formally aligns them to SDG
+targets and indicators.
+:::
