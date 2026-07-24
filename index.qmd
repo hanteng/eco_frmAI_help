@@ -2,8 +2,6 @@
 keywords: ['Eco-Innovations', 'AI', 'Sustainable Development Goals']
 ---
 
-# Welcome {.unnumbered}
-
 Welcome to our project! This book explores eco-innovations and AI.
 
 Use the globe dropdown menu in the upper navigation bar to switch language translations dynamically.
