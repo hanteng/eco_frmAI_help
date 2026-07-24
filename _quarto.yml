@@ -15,7 +15,6 @@ book:
         - name: "Independent Researcher"
   date: "2026-07-23"   # ISO format so it parses/localizes correctly across formats
   site-url: "https://eco.frmai.help"   # matches CNAME; update if the domain changes
-  cover-image: cover.png   # file now present at project root
   sidebar:
     style: docked
     collapse-level: 1
