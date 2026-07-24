@@ -51,8 +51,7 @@ number-depth: 2        # number sections to x.y; leave x.y.z unnumbered
 number-sections: true
 
 execute:
-  freeze: true  # 👈 This tells Quarto to only execute your code chunks when you explicitly change a file.
-  #freeze: auto  # cache/reuse output; only re-run changed chapters
+  freeze: auto  # cache/reuse output; only re-run changed chapters
   echo: false
 
 
