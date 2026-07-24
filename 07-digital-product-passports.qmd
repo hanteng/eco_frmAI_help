@@ -1,19 +1,22 @@
 ---
-subtitle: Designing Groundwork for Trustworth Data
-keywords: 
+subtitle: "Designing Groundwork for Trustworthy Data"
+abstract: |
+  This chapter opens Part III by demonstrating how a machine-readable Digital Product Passport schema, populated by the de-risking matrix of Chapter 6, can help an industry sector navigate the green digital transformation of products and services.
+keywords:
+  - Digital Product Passport
+  - lifecycle traceability
+  - SSbD compliance
+  - supply-chain verification
   - sustainable consumption and production
   - life cycle analysis
   - Safe and Sustainable by Design
 ---
+
 # Digital Product Passports (DPP) {#sec-digital-product-passports}
 
-::: {.chapterabstract}
-Draft abstract: this chapter opens Part III by demonstrating how a machine-readable Digital Product Passport schema populated by the de-risking matrix of Chapter 6 can help an industry sector in green digital transformation of products and services.
-:::
+The Digital Product Passport (DPP) refers to a digital record storing data on a product’s lifecycle, materials, repairability, and carbon footprint, thereby laying the groundwork for trustworthy data for green and safe transitions leveraging digital means.
 
-::: {.keywords}
-Digital Product Passport &middot; lifecycle traceability &middot; SSbD compliance &middot; supply-chain verification
-:::
+Mandated by the EU's **Ecodesign for Sustainable Products Regulation** (ESPR), DPP can be accessed via a QR code, enabling innovative products and services that contribute to the regenerative patterns of sustainable consumption and production. The EU's DPP Registry and testing environment went live, with mandatory passports required for certain large batteries starting 2027.
 
 ## 7.1 DPP Data Architecture
 - Machine-readable attribute schema for supply-chain lifecycle tracking.

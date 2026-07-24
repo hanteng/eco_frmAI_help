@@ -29,7 +29,7 @@ book:
       chapters:
         - 07-digital-product-passports.qmd
         - 08-industrial-data-spaces.qmd
-    #    - 09-regtech-defa-alignment.qmd
+        - 09-regtech-defa-alignment.qmd
     - references.qmd
 
   # Appendices are a distinct top-level key, not a "fake part" inside chapters.

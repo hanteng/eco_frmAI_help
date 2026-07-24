@@ -1,0 +1,36 @@
+---
+title: "RegTech & Digital Trade and Labour Interoperability"
+subtitle: "Aligning Regional Frameworks for Cross-Border Circular Trade"
+abstract: |
+  This closing chapter aligns the compliance outputs of Parts I--III with the ASEAN Digital Economy Framework Agreement (DEFA) and adjacent Digital Trade Agreements (DTAs). It synthesizes the book's end-to-end architecture for bridging the ASEAN Digital Economy with the EU's Circular Digital Economy, solving emerging international trade and labour compliance issues through integrated RegTech and FinTech solutions.
+keywords:
+  - RegTech
+  - ASEAN DEFA
+  - digital trade agreements
+  - GBS 2.0
+  - regulatory interoperability
+  - cross-border compliance
+---
+
+# RegTech & Digital Trade and Labour Interoperability {#sec-regtech-defa-alignment}
+
+Regulatory Technology (RegTech) refers to the use of automated data architectures, smart contracts, and real-time verification mechanisms to streamline regulatory compliance across international jurisdictions.
+
+As regional trade agreements increasingly incorporate digital standards—most notably through the **ASEAN Digital Economy Framework Agreement (DEFA)**—RegTech provides the critical operational bridge linking localized ESG and lifecycle data to international trade and labour mandates. By automating compliance filings, organizations can navigate cross-border regulatory friction while facilitating trusted data flows between emerging digital economies and strict regulatory regimes like the EU's circular economy mandates.
+
+## 9.1 Automated Regulatory Compliance Pipelines
+- Turning DPP + IDS outputs into machine-checkable compliance filings.
+
+## 9.2 ASEAN DEFA Alignment and Regional DTAs
+- Harmonized digital rules, trusted cross-border data flows, and where the book's framework maps onto DEFA provisions.
+
+## 9.3 GBS 2.0 and High-Value Global Business Services
+- From "outsourcing" to high-value GBS as an engine of trade resilience.
+
+## 9.4 Synthesis: From Data Engine to Trade Policy
+- Full end-to-end recap of Parts I--III against the system-architecture diagram in @sec-app-mermaid (Section B.1).
+- Limitations and an agenda for the next edition.
+
+::: {.callout-note title="Closing note"}
+This chapter is the natural home for a short policy brief version of the book, if a companion UNU Policy Brief is commissioned separately.
+:::
