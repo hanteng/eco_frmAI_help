@@ -35,9 +35,9 @@ book:
   # Appendices are a distinct top-level key, not a "fake part" inside chapters.
   # This is the current Quarto convention and renders with correct
   # A/B numbering and its own TOC/nav treatment in both HTML and PDF/LaTeX.
-  #appendices:
-  #  - appendix-a-canvas-spec.qmd
-  #  - appendix-b-mermaid-workflows.qmd
+  appendices:
+    - appendix-a-canvas-spec.qmd
+    - appendix-b-mermaid-workflows.qmd
 
 bibliography: references.bib
 csl: https://www.zotero.org/styles/springer-basic-author-date

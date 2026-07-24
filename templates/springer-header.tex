@@ -1,0 +1,38 @@
+% Draft LaTeX macros for a monograph-style PDF build.
+% NOTE: these are generic KOMA-Script-compatible substitutes for
+% drafting/review only. Replace with Springer's own class/macros
+% (e.g. svmono) once a production template is issued.
+
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{mdframed}
+
+% Chapter abstract, used by "::: {.chapterabstract} ... :::" in .qmd.
+% Mirrors Springer's own svmono/SNmono \abstract{} command: bold label,
+% plain italic paragraph, no box or shading. A thin rule stands in for
+% the class's internal spacing cues.
+\newenvironment{chapterabstract}{%
+  \par\noindent\rule{\linewidth}{0.5pt}\par\vspace{0.4em}
+  \noindent\textbf{Abstract }\itshape
+}{%
+  \par\vspace{1.2em}
+}
+
+% Keywords line: "Key1 \cdot Key2 \cdot Key3", per Springer's \keywords{}.
+% Defined as an *environment* -- not a \newcommand -- because Pandoc/Quarto
+% turns "::: {.keywords} ... :::" into \begin{keywords}...\end{keywords}
+% in the LaTeX/PDF build, not into a macro call.
+\newenvironment{keywords}{%
+  \par\noindent\textbf{Keywords: }
+}{%
+  \par\vspace{1.4em}
+}
+
+% Policy highlight box (not a Springer convention -- this book's own device
+% for policy call-outs; kept boxed on purpose so it reads as supplementary).
+\newenvironment{policybox}[1]{%
+  \begin{mdframed}[linewidth=1pt,linecolor=blue!60!black,backgroundcolor=blue!2]
+  \textbf{#1}\par\vspace{0.3em}\small
+}{%
+  \end{mdframed}\vspace{1em}
+}
