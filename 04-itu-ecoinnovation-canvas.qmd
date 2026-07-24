@@ -1,0 +1,26 @@
+# The ITU-Inspired EcoInnovation Canvas {#sec-itu-ecoinnovation-canvas}
+
+::: {.chapterabstract}
+Draft abstract: this chapter introduces the book's central methodological contribution -- extending the ITU Digital Innovation Toolkit into the nine-block **AI-SDG EcoInnovation Canvas** (full spec in @sec-app-canvas).
+:::
+
+::: {.keywords}
+ITU Digital Innovation Toolkit &middot; ecosystem diagnosis &middot; canvas methodology &middot; technology roadmapping
+:::
+
+## 4.1 From Retrospective Science Mapping to Prospective Service Design
+- Why traditional bibliometrics fail without a design layer.
+
+## 4.2 Extending the ITU Digital Innovation Toolkit
+- Mapping onto *Rapid Ecosystem Diagnosis* and *Flagship Project Co-Creation* phases specifically.
+
+## 4.3 The Nine-Block AI-SDG EcoInnovation Canvas
+- Walk-through of the canvas, block by block, with forward references to where each block is operationalized (Blocks 1--3 in Part I, Blocks 4--6 in this Part, Blocks 7--9 in Part III).
+- Full machine-readable specification: @sec-app-canvas.
+
+## 4.4 Method and Data Matrix
+- The "Method" row (AI-enabled scientometric roadmapping) and "Data" row (triangulated multi-database horizon data) as a single institutional workflow, for expert and institutional application.
+
+::: {.callout-tip title="Bridge to Chapter 5"}
+Chapter 5 operationalizes the canvas into stakeholder-facing service journeys.
+:::
