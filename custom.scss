@@ -1,0 +1,40 @@
+/*-- scss:rules --*/
+
+// Matches Springer's svmono/SNmono \abstract{} command: a bold "Abstract"
+// label followed by a plain italic paragraph. No box, no shading -- real
+// Springer monographs do not fence the abstract in a callout.
+.chapterabstract {
+  font-style: italic;
+  font-size: 0.95em;
+  line-height: 1.45;
+  border-top: 0.75pt solid #000;
+  padding-top: 0.6em;
+  margin: 1.4em 0 1.6em 0;
+}
+.chapterabstract::before {
+  content: "Abstract ";
+  display: inline;
+  font-style: normal;
+  font-weight: 700;
+}
+
+// Springer keywords line: "Key1 \cdot Key2 \cdot Key3", not comma-separated.
+// Apply to a span/div with class "keywords"; separate terms with " &middot; "
+// in the .qmd source, e.g. Key1 &middot; Key2 &middot; Key3
+.keywords {
+  font-size: 0.9em;
+  margin-bottom: 1.6em;
+}
+.keywords::before {
+  content: "Keywords: ";
+  font-weight: 700;
+}
+
+.policybox {
+  border: 1px solid #2c5aa0;
+  background-color: #f2f6fc;
+  padding: 0.9em 1.1em;
+  border-radius: 4px;
+  margin-bottom: 1.2em;
+  font-size: 0.95em;
+}
