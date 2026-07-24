@@ -1,0 +1,38 @@
+---
+subtitle: Sharing Trustworthy Data for Coordinated Actions
+keywords: 
+  - data sovereignty
+  - interoperability
+  - federated trust
+  - sustainable consumption and production
+  - Safe and Sustainable by Design
+  - tech sovereignty
+---
+# Sovereign Industrial Data Spaces (IDS) {#sec-industrial-data-spaces}
+
+::: {.chapterabstract}
+Draft abstract: this chapter specifies the federated, non-blockchain
+data-sovereignty layer that governs access to the DPP data defined in
+Chapter 7.
+:::
+
+::: {.keywords}
+Industrial Data Space &middot; data sovereignty &middot; federated trust &middot; usage control
+:::
+
+## 8.1 Data Sovereignty Principles and Federated Trust Frameworks
+- Explicitly non-blockchain: usage-control rules over a trust anchor
+  rather than a distributed ledger.
+- Extension via blockchain possible: how a distributed ledger helps.
+
+## 8.2 Usage Control Rules and Cross-Border Data Governance
+- Contractual and technical enforcement of "who may use what, how, and
+  for how long."
+
+## 8.3 Interoperability with DPP Outputs
+- Closing the loop back to @sec-digital-product-passports.
+
+::: {.callout-tip title="Bridge to Chapter 9"}
+Chapter 9 closes the book by aligning this data layer with regional
+trade and regulatory frameworks.
+:::
