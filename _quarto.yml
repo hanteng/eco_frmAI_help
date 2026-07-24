@@ -18,11 +18,85 @@ book:
   # ---- Structure: 3 parts x 3 chapters, mirroring the 9-block canvas 1:1 ----
   chapters:
     - index.qmd
-    - part: "Part I: Data Engine (Scientometrics & Patent Mapping)"
+    - part: "Part I: Data Engine (Scientometrics & Patent Data and Visualization)"
       chapters:
         - 01-scientometric-horizon.qmd
         - 02-ai-nlp-extraction.qmd
         - 03-sdg-target-mapping.qmd
+    - part: "Part II: The Translation Bridge (Extended ITU Toolkits Design Canvas)"
+      chapters:
+    #    - 04-itu-ecoinnovation-canvas.qmd
+    #    - 05-service-design-meta-journeys.qmd
+    #    - 06-ssbd-derisking-matrix.qmd
+    #- part: "Part III: Industrial & Policy Outputs (Standards & RegTech)"
+    #  chapters:
+    #    - 07-digital-product-passports.qmd
+    #    - 08-industrial-data-spaces.qmd
+    #    - 09-regtech-defa-alignment.qmd
+    - references.qmd
+
+  # Appendices are a distinct top-level key, not a "fake part" inside chapters.
+  # This is the current Quarto convention and renders with correct
+  # A/B numbering and its own TOC/nav treatment in both HTML and PDF/LaTeX.
+  appendices:
+    - appendix-a-canvas-spec.qmd
+    - appendix-b-mermaid-workflows.qmd
+
+bibliography: references.bib
+csl: https://www.zotero.org/styles/springer-basic-author-date
+
+crossref:
+  chapters: true
+  part-title: "Part"
+  appendix-title: "Appendix"
+  appendix-delim: ":"
+
+number-depth: 2        # number sections to x.y; leave x.y.z unnumbered
+number-sections: true
+
+execute:
+  freeze: auto          # cache/reuse output; only re-run changed chapters
+  echo: false
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss]
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    citations-hover: true
+    footnotes-hover: true
+
+  pdf:
+    documentclass: scrbook     # KOMA-Script stand-in for drafting/review;
+                                # swap to Springer's own class (e.g. svmono)
+                                # only once a contract/template is issued
+    papersize: a4
+    classoption: [10pt, openright, twoside]
+    toc: true
+    toc-depth: 3
+    colorlinks: true
+    linkcolor: blue
+    citecolor: darkgreen
+    urlcolor: blue
+    include-in-header: templates/springer-header.tex
+    pdf-engine: xelatex
+    keep-tex: true
+
+  # Optional modern alternative added in Quarto 1.9 (Mar 2026): Typst now has
+  # full parity with the LaTeX book path (parts, appendices, crossrefs) and
+  # renders far faster than xelatex. Good for fast iteration; uncomment to try.
+  # typst:
+  #   documentclass: book
+  #   toc: true
+  #   number-sections: true
+
+
+
     - references.qmd
 
 bibliography: references.bib
