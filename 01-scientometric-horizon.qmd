@@ -1,0 +1,37 @@
+# Scientometric & Patent Horizon {#sec-scientometric-horizon}
+
+::: {.chapterabstract}
+Draft abstract: this chapter sets the empirical baseline for the book by
+summarizing the Technology Readiness Level (TRL) scaffold
+used throughout Parts I--III and the multi-database corpus (Scopus, Web of Science, Lens,
+EPO/USPTO patents) for scientometric and patent horizon scanning.
+:::
+
+**Keywords:** scientometrics, bibliometrics, patent landscaping, TRL,
+multi-database triangulation.
+
+## 1.1 Multi-Database Ingestion
+- Comparative coverage of Scopus, Web of Science, and Lens for SDG
+  tracking; strengths/blind spots of each source.
+- Data harvesting and taxonomy alignment against the 17 SDGs
+  (cross-ref @sec-sdg-target-mapping).
+- Deduplication and record-linkage across scholarly and patent corpora.
+
+## 1.2 Technology Readiness Level (TRL) Assessment Framework
+- TRL 1--9 scoring rubric adapted for AI-enabled hardware/software.
+- Worked example: applying the rubric to a semiconductor sub-domain.
+
+## 1.3 Patent Landscape Analysis & Technology Mining
+- The International Patent Classification (IPC) and Cooperative Patent Classification (CPC) classification, citation velocity, key-assignee mapping.
+- Co-patenting networks as an early signal of cross-border collaboration.
+
+## 1.4 Institutional Knowledge Landscapes {#sec-institutional-baseline}
+- Comparative mapping of UNU, OECD, and ADB published knowledge bases as
+  a *baseline corpus*, distinct from the commercial databases above.
+- Sets up the knowledge-to-policy nexus revisited in
+  @sec-sdg-target-mapping.
+
+::: {.callout-tip title="Bridge to Chapter 2"}
+Chapter 2 turns this raw, triangulated corpus into technology
+trajectories using AI-assisted content analysis, natural language processing (NLP), and  prompt priming.
+:::

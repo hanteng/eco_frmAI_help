@@ -7,13 +7,21 @@ execute:
   freeze: true  # 👈 This tells Quarto to only execute your code chunks when you explicitly change a file.
 
 book:
-  title: "AI for Eco-Innovations"
-  author: "Han-Teng Liao"
+  title: "Orchestrating AI-SDG EcoInnovations"
+  subtitle: "A Playbook for Mapping and Designing an Open and Collaborative Future"
+  author:
+    - name: "Han-Teng Liao"
+      orcid: "0000-0000-0000-0000"   # replace with actual ORCID
+      affiliations:
+        - name: "Independent Researcher"
   date: "23/07/2026"
+  # ---- Structure: 3 parts x 3 chapters, mirroring the 9-block canvas 1:1 ----
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - part: "Part I: Data Engine (Scientometrics & Patent Mapping)"
+      chapters:
+        - 01-scientometric-horizon.qmd
     - references.qmd
 
 bibliography: references.bib
