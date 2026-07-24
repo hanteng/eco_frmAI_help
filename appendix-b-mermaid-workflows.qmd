@@ -1,0 +1,55 @@
+# Workflow Diagrams & System Architectures {#sec-app-mermaid}
+
+This appendix contains executable **Mermaid.js** diagrams representing
+the end-to-end data flow and the ITU-toolkit extension discussed
+throughout the book. They render natively in both the HTML and PDF
+(via a static fallback) Quarto builds, and the code blocks can be
+ingested directly by an LLM agent for workflow orchestration.
+
+## B.1 End-to-End Data Flow: Data Engine to RegTech Output
+
+```{mermaid}
+%%| fig-cap: "System architecture from data harvesting to trade alignment"
+%%| label: fig-end-to-end-flow
+graph TD
+    subgraph PartI [Part I: Data Engine]
+        A[Scholarly literature: WoS / Scopus] --> D[AI-Powered Bibliometrics Catalogue]
+        B[Global patent data: Lens / EPO] --> D
+        C[UN SDG taxonomy] --> D
+        D --> E[Technology trajectory & TRL map]
+    end
+
+    subgraph PartII [Part II: The Translation Bridge]
+        E --> F[Extended ITU EcoInnovation Canvas]
+        F --> G[Service design meta-journey]
+        G --> H[SSbD de-risking assessment]
+    end
+
+    subgraph PartIII [Part III: Industrial & Policy Outputs]
+        H --> I[Digital Product Passport schema]
+        H --> J[Industrial Data Space sovereignty rules]
+        I --> K[RegTech automated compliance]
+        J --> K
+        K --> L[ASEAN DEFA & DTA alignment]
+    end
+```
+
+## B.2 Extended ITU Service Design Meta-Journey
+
+```{mermaid}
+%%| fig-cap: "Data-driven ITU service design flow"
+%%| label: fig-itu-service-flow
+sequenceDiagram
+    autonumber
+    participant Research as Research Council / Scientometrics
+    participant Engine as AI-SDG Methodology Engine
+    participant Industry as Enterprise / GBS Operator
+    participant Regulator as Policy / Trade Authority (ASEAN DEFA)
+
+    Research->>Engine: Submit patent & publication corpora
+    Engine->>Engine: Run NLP clustering & SSbD scoring
+    Engine->>Industry: Generate Digital Product Passport (DPP) draft
+    Industry->>Engine: Define Industrial Data Space (IDS) rules
+    Engine->>Regulator: Export RegTech compliance verification
+    Regulator-->>Industry: Grant regional trade interoperability clearance
+```
